@@ -1,0 +1,779 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  max-width: 1920px;
+  scroll-behavior: smooth;
+  margin: 0px auto;
+  padding: 0px 140px;
+  overflow-x: hidden;
+}
+
+main {
+  max-width: 1800px;
+  margin: 0px auto;
+}
+
+.main_header {
+  max-width: 1800px;
+  margin: 0px auto;
+}
+
+.top_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 42px 0px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 27px;
+}
+
+nav a {
+  color: rgb(37, 147, 210);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.phone_num_top_header {
+  display: flex;
+  gap: 10px;
+}
+
+.phone_num_top_header p {
+  color: rgb(37, 147, 210);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.time_top_header p {
+  color: rgb(37, 147, 210);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 34%;
+}
+
+.phone_num_top_header {
+  align-items: center;
+}
+
+.button_top_header button {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 177px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: rgb(37, 147, 210);
+}
+
+h1 {
+  color: rgb(14, 57, 82);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h1 span {
+  color: rgb(37, 147, 210);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  color: rgb(18, 71, 103);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 span {
+  color: rgb(37, 147, 210);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.main_text_header p {
+  color: rgb(15, 60, 86);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main_text_header p span {
+  color: rgb(37, 147, 210);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text_main_header {
+  display: flex;
+  position: relative;
+}
+
+.photo_main_header {
+  position: absolute;
+  z-index: -100;
+  top: -70px;
+  left: 35%;
+}
+
+.main_text_header {
+  padding-top: 70px;
+  h1 {
+    padding-bottom: 33px;
+  }
+  div {
+    padding-top: 116px;
+  }
+  button {
+    width: 275px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: rgb(37, 147, 210);
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  div p {
+    padding-top: 20px;
+    color: rgb(37, 147, 210);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 137.4%;
+  }
+}
+
+.prioritet {
+  padding-top: 400px;
+  h1 {
+    text-align: center;
+  }
+}
+
+.grid_prioritet {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0px auto;
+  text-align: center;
+  max-width: 1250px;
+  gap: 55px;
+  div {
+    opacity: 0.9;
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #ffffff;
+    margin: 0px auto;
+    text-align: center;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.num_gridP {
+  color: #fff;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.nameP {
+  color: rgb(37, 147, 210);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  padding-left: 15px;
+  text-decoration: underline 2px rgb(248, 179, 40);
+  text-underline-offset: 10px;
+}
+
+.grid_prioritet hr {
+  width: 175px;
+  height: 2px;
+  background: #e37575;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+
+.descriptP {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  padding: 16px 38px 0px 15px;
+}
+
+.cell_sec_p_but {
+  padding-top: 55px;
+  text-align: center;
+  button {
+    width: 275px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: rgb(37, 147, 210);
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    opacity: 0.9;
+  }
+}
+
+.why_me_give_bayer {
+  padding-top: 150px;
+}
+
+.give {
+  text-align: center;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.give li {
+  color: #2a2367;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  margin: 0px 0px 8px 0px;
+}
+.button_give {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.button_give button {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 275px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: rgb(37, 147, 210);
+}
+
+.grid_prioritet div:hover {
+  border-radius: 10px;
+  background: rgba(37, 147, 210, 0.207);
+
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.grid_prioritet div:hover > p {
+  color: black;
+}
+
+.grid_prioritet div:hover > .nameP {
+  text-decoration: underline 2px white;
+}
+
+.study_busines {
+  padding-top: 140px;
+}
+
+.block_study p {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 90%;
+  margin: 10px 0px;
+}
+
+.block_study {
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  color: rgb(37, 147, 210);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 30px;
+  line-height: normal;
+}
+
+.stages {
+  text-align: center;
+}
+
+.grid_stages {
+  padding-top: 30px;
+  display: grid;
+  justify-content: center;
+  margin: 0px auto;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  max-width: 90%;
+}
+
+.stages_grids {
+  width: 668px;
+  height: auto;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0px 10px 60px 0px rgba(42, 35, 103, 0.15);
+}
+
+.num_stages p {
+  width: 53px;
+  height: 53px;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: rgb(37, 147, 210);
+
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 11px;
+}
+
+.name_stages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 90px;
+}
+
+.text_stages p {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 10px;
+}
+
+.hr_stages {
+  padding: 9px 0px 29px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.hr_stages hr {
+  width: 582px;
+  height: 1px;
+  background: #ebebeb;
+}
+
+.text_main_stages p {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  padding: 0px 43px 15px 43px;
+}
+
+.img_stage {
+  padding-bottom: 40px;
+}
+
+.color_footer {
+  background: rgba(37, 147, 210, 0.598);
+  position: absolute;
+  left: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 550px;
+}
+
+.footer {
+  padding: 20px 0px 0px 0px;
+}
+
+.call_we_footer {
+  padding-top: 75px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contact_footer {
+  display: flex;
+  padding-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact_footer p {
+  color: rgb(37, 147, 210);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contact_footer button {
+  border-radius: 5px;
+  background: rgb(37, 147, 210);
+
+  width: 341px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #fff;
+  border: solid 3px rgba(0, 0, 0, 0.229);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hr_footer {
+  padding: 40px 0px;
+}
+
+.hr_footer hr {
+  width: 1360px;
+  background: #6b5af9;
+  height: 0.5px;
+}
+
+.adres_footer p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.adres_footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.b1_f button {
+  background-image: url("img/telegram_footer.png");
+  width: 40px;
+  height: 40px;
+  background-size: 40px;
+  background-repeat: no-repeat;
+}
+
+.b2_f button {
+  background-image: url("img/whatsapp_footer.png");
+  width: 40px;
+  height: 40px;
+  background-size: 40px;
+  background-repeat: no-repeat;
+}
+.tg_call_footer {
+  display: flex;
+  gap: 20px;
+}
+
+.num_footer {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+.logo_footer img {
+  width: 200px;
+}
+.logo_footer {
+  text-align: center;
+}
+
+.last_text {
+  padding-top: 30px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.href_footer a {
+  color: white;
+  padding-top: 40px;
+}
+.href_footer {
+  padding-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+.top_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 42px 0px;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  gap: 27px;
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.phone_num_top_header {
+  display: flex;
+  gap: 10px;
+}
+
+.phone_num_top_header p {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.time_top_header p {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 34%;
+}
+
+.phone_num_top_header {
+  align-items: center;
+}
+
+.background {
+  max-width: 1920px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: rgb(37, 147, 210);
+  margin: 0px auto;
+}
+
+.grid_price {
+  display: grid;
+  margin: 0px auto;
+  max-width: 65vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid {
+  max-width: 390px;
+  height: auto;
+  margin: 0px auto;
+  border-radius: 10px;
+  background: #fff;
+  flex-shrink: 0;
+}
+
+.header_trafic {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.trafic {
+  color: #7c7c7c;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 12px;
+}
+
+.name_trafic {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 12px;
+}
+
+.sell {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sell_p {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header_trafic hr {
+  width: 100%;
+  margin: 15px 0px;
+  height: 1.5px;
+  background: #6b5af9;
+}
+
+.main_trafic {
+  padding: 10px 40px 10px 40px;
+}
+
+.main_trafic li::before {
+  content: "";
+}
+
+.main_trafic li {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 15px 0px;
+}
+
+.main {
+  padding-bottom: 150px;
+}
+.button_price {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.button_price button {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 350px;
+  height: 60px;
+  flex-shrink: 0;
+  margin: 0px 15px;
+  border-radius: 5px;
+  background: rgba(248, 179, 40, 0.723);
+}
+
+.price_sec h2 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.last_text_price {
+  color: white;
+  font-size: 15px;
+  font-family: Montserrat;
+  font-weight: 500;
+  padding-bottom: 40px;
+  text-align: center;
+}

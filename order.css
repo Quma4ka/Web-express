@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  max-width: 1920px;
+  scroll-behavior: smooth;
+  margin: 0px auto;
+  padding: 0px 140px;
+  overflow-x: hidden;
+  font-family: Montserrat;
+
+}
+
+main {
+  max-width: 1800px;
+  margin: 0px auto;
+}
+
+.main_header {
+  max-width: 1800px;
+  margin: 0px auto;
+}
+
+.top_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+  align-items: center;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 27px;
+}
+
+nav a {
+  color: rgb(37, 147, 210);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.phone_num_top_header {
+  display: flex;
+  gap: 10px;
+}
+
+.phone_num_top_header p {
+  color: rgb(37, 147, 210);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.time_top_header p {
+  color: rgb(37, 147, 210);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 34%;
+}
+
+h1 {
+  color: rgb(14, 57, 82);
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+
+.spanzzz {
+  color: rgb(37, 147, 210);
+
+}
+
+h1 span {
+  color: rgb(37, 147, 210);
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.phone_num_top_header {
+  align-items: center;
+}
+
+.button_top_header button {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 177px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: rgb(37, 147, 210);
+}
+
+
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 103, 247, 0.202);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group textarea {
+  resize: vertical; /* Разрешить изменение размера только по вертикали */
+  min-height: 100px; /* Минимальная высота поля */
+  resize: vertical;
+  min-height: 100px;
+  max-height: 200px; /* Максимальная высота поля */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.form-group button {
+    width: 275px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: rgb(37, 147, 210);
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: black;
+}

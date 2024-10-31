@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="order.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <title>Сделать заказ</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="top_header">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="img/logo.png" style="width: 160px" alt=""
+          /></a>
+        </div>
+        <div class="menu">
+          <nav>
+            <ul class="ul_menu">
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="">Проекты</a></li>
+              <li><a href="order.html">Попасть в нашу команду</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="phone_top_header">
+          <div class="phone_num_top_header">
+            <a href="https://t.me/qumaQq" target="_blank"
+              ><img src="img/telegram.png" alt=""
+            /></a>
+            <a href="https://wa.me/79600894656" target="_blank"
+              ><img src="img/whatsapp.png" alt=""
+            /></a>
+            <p>+7(960)089-46-56</p>
+          </div>
+          <div class="time_top_header">
+            <p>Ежденевно с 10:00 до 20:00</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <h1>
+      Сделайте первый шаг к успешному сайту <span>— заполните заявку!</span>
+    </h1>
+    <main>
+      <form id="contactForm" method="POST" action="send_email.php">
+        <div class="form-group">
+          <label for="name">Ваше <span class="spanzzz">имя:</span> </label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Ваш <span class="spanzzz">email:</span> </label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Ваш <span class="spanzzz">телефон:</span> </label>
+          <input type="tel" id="phone" name="phone" required />
+        </div>
+
+        <div class="form-group">
+          <label for="project-type"
+            >Какой сайт <span class="spanzzz">вам нужен?</span>
+          </label>
+          <select id="project-type" name="project-type">
+            <option value="" disabled selected>Выберите тип сайта</option>
+            <option value="landing">Лендинг</option>
+            <option value="corporate">Корпоративный сайт</option>
+            <option value="online-store">Интернет-магазин</option>
+            <option value="blog">Блог</option>
+            <option value="portfolio">Портфолио</option>
+            <option value="other">Другое</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="design"
+            >Как вы хотите <span class="spanzzz">украсить сайт?</span>
+          </label>
+          <textarea
+            id="design"
+            name="design"
+            placeholder="Опишите ваши пожелания..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit">Отправить заявку</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
